@@ -20,8 +20,6 @@ class MainActivity : AppCompatActivity() {
 
         btnRegister = findViewById(R.id.btnRegister)
         btnLogin = findViewById(R.id.btnLogin)
-
-
         et_User = findViewById(R.id.et_User)
         et_Pass = findViewById(R.id.et_Pass)
 
