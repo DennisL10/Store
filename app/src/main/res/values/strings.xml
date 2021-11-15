@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Store</string>
+    <string name="etUsert"> Ingrese su usuario</string>
+    <string name="etPass">Ingrese su Contraseña</string>
+    <string name="btnLogin">Iniciar Sesion</string>
+    <string name="btnRegister">Aqui</string>
+    <string name="title_activity_registrar">Registrar</string>
+</resources>
