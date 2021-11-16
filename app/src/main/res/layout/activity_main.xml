@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#607d8b"
+    android:background="#313585"
     tools:context=".MainActivity">
 
 
@@ -35,14 +35,34 @@
         android:id="@+id/et_Crearcuenta"
         android:layout_width="259dp"
         android:layout_height="26dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="88dp"
         android:fontFamily="@font/capriola"
         android:text="Si no dispones de una cuenta pulsa"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.119"
+        app:layout_constraintHorizontal_bias="0.118"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnLogin" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="102dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="35dp"
+        android:background="@drawable/button_rounded"
+        android:drawableLeft="@drawable/add_user__1_"
+        android:fontFamily="@font/capriola"
+        android:onClick="Agregar"
+        android:text="@string/btnRegister"
+        android:textSize="12sp"
+        android:textStyle="bold|italic"
+        app:iconPadding="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLogin"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <Button
         android:id="@+id/btnLogin"
@@ -86,35 +106,13 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="152dp"
-        android:layout_height="99dp"
-        android:layout_marginTop="56dp"
+        android:layout_width="223dp"
+        android:layout_height="149dp"
+        android:layout_marginTop="60dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/iniciar_sesion" />
-
-    <Button
-        android:id="@+id/btnRegister"
-        android:layout_width="102dp"
-        android:layout_height="37dp"
-        android:layout_marginStart="280dp"
-        android:layout_marginTop="90dp"
-        android:layout_marginEnd="35dp"
-        android:background="@drawable/button_rounded"
-        android:drawableLeft="@drawable/add_user__1_"
-        android:fontFamily="@font/capriola"
-        android:onClick="Agregar"
-        android:text="@string/btnRegister"
-        android:textSize="12sp"
-        android:textStyle="bold|italic"
-        app:iconPadding="0dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnLogin"
-        tools:ignore="TouchTargetSizeCheck" />
+        app:srcCompat="@drawable/tarjeta" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -130,6 +128,18 @@
         app:layout_constraintTop_toBottomOf="@+id/et_Crearcuenta"
         app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/add_user__1_" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="236dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="592dp"
+        android:layout_marginBottom="7dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sport" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
