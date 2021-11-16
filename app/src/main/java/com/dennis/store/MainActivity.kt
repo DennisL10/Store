@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun loguin(Vista: View){
-        if(et_User.getText().toString().equals("admin") && et_Pass.getText().toString().equals("admin")){
+        if(et_User.getText().toString().equals("1234") && et_Pass.getText().toString().equals("1234")){
             Toast.makeText(this,"Sesion Iniciada", Toast.LENGTH_SHORT).show();
             val loguin = Intent(this, SesionIniciada::class.java)
             startActivity(loguin)

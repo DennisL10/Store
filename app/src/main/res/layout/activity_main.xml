@@ -113,5 +113,20 @@
         app:layout_constraintTop_toBottomOf="@+id/btnLogin"
         tools:ignore="TouchTargetSizeCheck" />
 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="140dp"
+        android:onClick="Agregar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_Crearcuenta"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/add_user__1_" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
