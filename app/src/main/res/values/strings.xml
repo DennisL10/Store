@@ -1,12 +1,19 @@
 <resources>
     <string name="app_name">Store</string>
-    <string name="etUsert"> Ingrese su usuario</string>
-    <string name="etPass">Ingrese su Contraseña</string>
+    <string name="et_User"> Ingrese su usuario</string>
+    <string name="et_Pass">Ingrese su Contraseña</string>
     <string name="btnLogin">Iniciar Sesion</string>
     <string name="btnRegister">Aqui</string>
-    <string name="et_Calzado">Calzado</string>
-    <string name="et_Accesorios">Accesorios</string>
-    <string name="et_Ropa">Ropa</string>
-    <string name="et_Menu">Selecciona una Categoria</string>
+    <string name="tv_Calzado">Calzado</string>
+    <string name="tv_Accesorios">Accesorios</string>
+    <string name="tv_Ropa">Ropa</string>
+    <string name="et_Nombres">Nombres</string>
+    <string name="et_Apellidos">Apellidos</string>
+    <string name="et_Sexo">Sexo</string>
+    <string name="et_Direccion">Direccion</string>
+    <string name="et_DireccionEspecifica">Direccion Especifica</string>
+    <string name="tv_Registro">INGRESA TUS DATOS</string>
+    <string name="tv_Menu">Selecciona una Categoria</string>
     <string name="title_activity_registrar">Registrar</string>
+
 </resources>
