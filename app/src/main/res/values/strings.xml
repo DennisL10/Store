@@ -4,11 +4,14 @@
     <string name="et_Pass">Ingrese su Contraseña</string>
     <string name="btnLogin">Iniciar Sesion</string>
     <string name="btnRegister">Aqui</string>
+    <string name="btnRegistrar">REGISTRARME</string>
     <string name="tv_Calzado">Calzado</string>
     <string name="tv_Accesorios">Accesorios</string>
     <string name="tv_Ropa">Ropa</string>
     <string name="et_Nombres">Nombres</string>
     <string name="et_Apellidos">Apellidos</string>
+    <string name="et_Usuario">Crea un Usuario</string>
+    <string name="et_Contra">Crea una Contraseña</string>
     <string name="et_Sexo">Sexo</string>
     <string name="et_Direccion">Direccion</string>
     <string name="et_DireccionEspecifica">Direccion Especifica</string>
