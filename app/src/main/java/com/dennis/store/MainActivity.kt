@@ -13,7 +13,6 @@ class MainActivity : AppCompatActivity() {
     private lateinit var et_Pass: EditText
     private lateinit var btnRegister: Button
     private lateinit var btnLogin: Button
-    //ELMER ME LA CHUPA
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
