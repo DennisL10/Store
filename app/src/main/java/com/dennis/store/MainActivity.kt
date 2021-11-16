@@ -38,6 +38,5 @@ class MainActivity : AppCompatActivity() {
         val agregar = Intent(this, Registrar::class.java)
         startActivity(agregar)
 
-
     }
 }
