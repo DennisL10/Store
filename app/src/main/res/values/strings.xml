@@ -4,5 +4,6 @@
     <string name="etPass">Ingrese su Contraseña</string>
     <string name="btnLogin">Iniciar Sesion</string>
     <string name="btnRegister">Aqui</string>
+    <string name="et_Menu">Selecciona una Categoria</string>
     <string name="title_activity_registrar">Registrar</string>
 </resources>
