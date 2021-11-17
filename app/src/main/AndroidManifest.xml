@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Design.NoActionBar">
         <activity
+            android:name=".MenuCalzado"
+            android:exported="false" />
+        <activity
             android:name=".Registrar"
             android:exported="false" />
         <activity

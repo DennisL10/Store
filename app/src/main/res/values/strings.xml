@@ -13,6 +13,7 @@
     <string name="et_Usuario">Crea un Usuario</string>
     <string name="et_Contra">Crea una Contraseña</string>
     <string name="et_Sexo">Sexo</string>
+    <string name="tv_Tarjeta">Añadir una Tarjeta</string>
     <string name="et_Direccion">Direccion</string>
     <string name="et_DireccionEspecifica">Direccion Especifica</string>
     <string name="tv_Registro">INGRESA TUS DATOS</string>
