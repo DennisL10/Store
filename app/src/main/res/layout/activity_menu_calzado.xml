@@ -7,26 +7,51 @@
     tools:context=".MenuCalzado">
 
     <ScrollView
+        android:id="@+id/scrollView2"
         android:layout_width="409dp"
         android:layout_height="657dp"
-        android:layout_marginStart="1dp"
         android:layout_marginTop="1dp"
-        android:layout_marginEnd="1dp"
-        android:layout_marginBottom="1dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="1dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/IB_zapato6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                app:srcCompat="@drawable/zapato6" />
+
+            <ImageButton
+                android:id="@+id/IB_zapato5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                app:srcCompat="@drawable/zapato5" />
+
+            <ImageButton
+                android:id="@+id/IB_zapato4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                app:srcCompat="@drawable/zapato4" />
+
+            <ImageButton
+                android:id="@+id/IB_zapato3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                app:srcCompat="@drawable/zapato3" />
 
             <ImageButton
                 android:id="@+id/IB_zapato1"
                 android:layout_width="match_parent"
                 android:layout_height="119dp"
+                android:backgroundTint="@color/white"
                 android:onClick="Info"
                 app:srcCompat="@drawable/zapatos_para_correr" />
 
@@ -34,7 +59,10 @@
                 android:id="@+id/IB_zapato2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:onClick="Info1"
                 app:srcCompat="@drawable/zapatooo" />
         </LinearLayout>
     </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

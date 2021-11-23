@@ -16,4 +16,11 @@ class MenuCalzado : AppCompatActivity() {
         startActivity(Info)
 
     }
+
+    fun Info1(Vista: View){
+        val Info1 = Intent(this, ActivityZapato2::class.java)
+        startActivity(Info1)
+
+    }
+
 }
