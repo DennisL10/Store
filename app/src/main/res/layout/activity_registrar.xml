@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#90065BAA"
+    android:background="@drawable/fondoregistro1"
     tools:context=".Registrar">
 
     <Button
@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="80dp"
-        android:layout_marginTop="72dp"
+        android:layout_marginTop="76dp"
         android:layout_marginEnd="80dp"
         android:background="@drawable/button_rounded"
         android:fontFamily="@font/capriola"
@@ -22,41 +22,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/et_AñadirContra" />
 
-    <EditText
-        android:id="@+id/et_Nombre"
-        android:layout_width="359dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="128dp"
-        android:background="#00FFFFFF"
-        android:backgroundTint="#008258FA"
-        android:drawablePadding="20dp"
-        android:ems="10"
-        android:fontFamily="@font/capriola"
-        android:hint="@string/et_Nombres"
-        android:inputType="textPersonName"
-        android:minHeight="48dp"
-        android:padding="20dp"
-        android:textColorHint="#FFFFFF"
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/gafata"
+        android:text="@string/tv_Registro"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/et_Apellidos"
-        android:layout_width="359dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="188dp"
-        android:background="#00FFFFFF"
-        android:backgroundTint="#008258FA"
-        android:drawablePadding="20dp"
-        android:ems="10"
-        android:fontFamily="@font/capriola"
-        android:hint="@string/et_Apellidos"
-        android:inputType="textPersonName"
-        android:minHeight="48dp"
-        android:padding="20dp"
-        android:textColorHint="#FFFFFF"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.53"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -64,7 +40,7 @@
         android:id="@+id/et_Direccion"
         android:layout_width="359dp"
         android:layout_height="60dp"
-        android:layout_marginTop="248dp"
+        android:layout_marginTop="200dp"
         android:background="#00FFFFFF"
         android:backgroundTint="#008258FA"
         android:drawablePadding="20dp"
@@ -80,10 +56,48 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
+        android:id="@+id/et_AñadirContra"
+        android:layout_width="359dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="380dp"
+        android:background="#00FFFFFF"
+        android:backgroundTint="#008258FA"
+        android:drawablePadding="20dp"
+        android:ems="10"
+        android:fontFamily="@font/capriola"
+        android:hint="@string/et_Contra"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:padding="20dp"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_Apellidos"
+        android:layout_width="359dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="140dp"
+        android:background="#00FFFFFF"
+        android:backgroundTint="#008258FA"
+        android:drawablePadding="20dp"
+        android:ems="10"
+        android:fontFamily="@font/capriola"
+        android:hint="@string/et_Apellidos"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:padding="20dp"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
         android:id="@+id/et_DireccionEspeci"
         android:layout_width="359dp"
         android:layout_height="60dp"
-        android:layout_marginTop="308dp"
+        android:layout_marginTop="260dp"
         android:background="#00FFFFFF"
         android:backgroundTint="#008258FA"
         android:drawablePadding="20dp"
@@ -102,7 +116,7 @@
         android:id="@+id/et_AñadirUsu"
         android:layout_width="359dp"
         android:layout_height="60dp"
-        android:layout_marginTop="368dp"
+        android:layout_marginTop="320dp"
         android:background="#00FFFFFF"
         android:backgroundTint="#008258FA"
         android:drawablePadding="20dp"
@@ -118,16 +132,16 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/et_AñadirContra"
+        android:id="@+id/et_Nombre"
         android:layout_width="359dp"
         android:layout_height="60dp"
-        android:layout_marginTop="428dp"
+        android:layout_marginTop="80dp"
         android:background="#00FFFFFF"
         android:backgroundTint="#008258FA"
         android:drawablePadding="20dp"
         android:ems="10"
         android:fontFamily="@font/capriola"
-        android:hint="@string/et_Contra"
+        android:hint="@string/et_Nombres"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:padding="20dp"
@@ -135,27 +149,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="108dp"
-        android:text="@string/tv_Registro"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.53"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="130dp"
-        android:layout_height="92dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/anadir" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

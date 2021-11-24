@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#313585"
+    android:background="@drawable/fondo"
     tools:context=".MainActivity">
 
 
@@ -15,8 +15,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="208dp"
         android:layout_marginEnd="32dp"
-        android:background="#00FFFFFF"
-        android:backgroundTint="#008258FA"
+        android:background="@drawable/custom_input"
         android:drawableLeft="@drawable/avatar"
         android:drawablePadding="20dp"
         android:ems="10"
@@ -25,31 +24,20 @@
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:padding="20dp"
-        android:textColorHint="#FFFFFF"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/et_Crearcuenta"
-        android:layout_width="259dp"
-        android:layout_height="26dp"
-        android:layout_marginTop="88dp"
-        android:fontFamily="@font/capriola"
-        android:text="Si no dispones de una cuenta pulsa"
-        android:textColor="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.118"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnLogin" />
 
     <Button
         android:id="@+id/btnRegister"
         android:layout_width="102dp"
         android:layout_height="37dp"
         android:layout_marginStart="280dp"
-        android:layout_marginTop="76dp"
+        android:layout_marginTop="48dp"
         android:layout_marginEnd="35dp"
         android:background="@drawable/button_rounded"
         android:drawableLeft="@drawable/add_user__1_"
@@ -64,12 +52,25 @@
         app:layout_constraintTop_toBottomOf="@+id/btnLogin"
         tools:ignore="TouchTargetSizeCheck" />
 
+    <TextView
+        android:id="@+id/et_Crearcuenta"
+        android:layout_width="259dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/capriola"
+        android:text="Si no dispones de una cuenta pulsa"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.118"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLogin" />
+
     <Button
         android:id="@+id/btnLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="80dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="56dp"
         android:layout_marginEnd="80dp"
         android:background="@drawable/button_rounded"
         android:fontFamily="@font/capriola"
@@ -81,14 +82,14 @@
         app:layout_constraintTop_toBottomOf="@+id/et_Pass" />
 
     <EditText
+
         android:id="@+id/et_Pass"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="32dp"
-        android:background="#00FFFFFF"
-        android:backgroundTint="#008258FA"
+        android:background="@drawable/custom_input"
         android:drawableLeft="@drawable/passw"
         android:drawablePadding="20dp"
         android:ems="10"
@@ -97,18 +98,21 @@
         android:inputType="textPassword"
         android:minHeight="48dp"
         android:padding="20dp"
-        android:password="false"
-        android:textColorHint="#FFFFFF"
+        android:password="true"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/et_Nombre" />
 
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="223dp"
         android:layout_height="149dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="56dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"

@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
+import android.widget.CheckBox
 import android.widget.EditText
 import android.widget.Toast
 
@@ -24,6 +25,7 @@ class MainActivity : AppCompatActivity() {
         et_Pass = findViewById(R.id.et_Pass)
 
 
+
     }
 
     fun loguin(Vista: View){
@@ -33,6 +35,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(loguin)
         }else
             Toast.makeText(this,"Verifique Contraseña/Usuario", Toast.LENGTH_SHORT).show();
+
     }
     fun Agregar(Vista: View){
         val agregar = Intent(this, Registrar::class.java)

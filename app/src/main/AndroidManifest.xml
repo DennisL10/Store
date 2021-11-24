@@ -31,7 +31,7 @@
             android:name=".ActivityZapato1"
             android:exported="false" />
         <activity
-            android:name=".MenuCalzado"
+            android:name=".MenuZapato"
             android:exported="false" />
         <activity
             android:name=".Registrar"
