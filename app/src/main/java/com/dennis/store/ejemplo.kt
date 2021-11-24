@@ -5,14 +5,17 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 
-class SesionIniciada : AppCompatActivity() {
+class ejemplo : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_sesion_iniciada)
+        setContentView(R.layout.activity_ejemplo)
     }
-    fun Menu(Vista: View){
-        val menu = Intent(this, ejemplo::class.java)
-        startActivity(menu)
+
+    fun Infoo(Vista: View){
+        val Infoo = Intent(this, ActivityZapato2::class.java)
+        startActivity(Infoo)
 
     }
+
+
 }

@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Design.NoActionBar">
         <activity
+            android:name=".ejemplo"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityZapato6"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityZapato5"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityZapato4"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityZapato3"
+            android:exported="false" />
+        <activity
             android:name=".ActivityZapato2"
             android:exported="false" />
         <activity

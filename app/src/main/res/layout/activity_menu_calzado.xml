@@ -19,11 +19,18 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="405dp"
+                android:layout_height="143dp"
+                app:srcCompat="@drawable/logo_sportline_negro" />
+
             <ImageButton
                 android:id="@+id/IB_zapato6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/white"
+                android:onClick="Info5"
                 app:srcCompat="@drawable/zapato6" />
 
             <ImageButton
@@ -31,6 +38,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/white"
+                android:onClick="Info4"
                 app:srcCompat="@drawable/zapato5" />
 
             <ImageButton
@@ -38,6 +46,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/white"
+                android:onClick="Info3"
                 app:srcCompat="@drawable/zapato4" />
 
             <ImageButton
@@ -45,6 +54,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/white"
+                android:onClick="Info2"
                 app:srcCompat="@drawable/zapato3" />
 
             <ImageButton
@@ -62,6 +72,7 @@
                 android:backgroundTint="@color/white"
                 android:onClick="Info1"
                 app:srcCompat="@drawable/zapatooo" />
+
         </LinearLayout>
     </ScrollView>
 
