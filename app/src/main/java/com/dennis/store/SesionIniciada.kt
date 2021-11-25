@@ -10,5 +10,10 @@ class SesionIniciada : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sesion_iniciada)
     }
-    
+
+    fun ZAP1(Vista: View){
+        val ZAP1 = Intent(this, ActivityZapato2::class.java)
+        startActivity(ZAP1)
+
+    }
 }

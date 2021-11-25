@@ -11,9 +11,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Design.NoActionBar">
         <activity
-            android:name=".MenuZapato"
-            android:exported="false" />
-        <activity
             android:name=".ActivityZapato6"
             android:exported="false" />
         <activity
