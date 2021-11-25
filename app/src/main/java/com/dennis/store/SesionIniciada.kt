@@ -10,9 +10,5 @@ class SesionIniciada : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sesion_iniciada)
     }
-    fun Menu(Vista: View){
-        val menu = Intent(this, MenuZapato::class.java)
-        startActivity(menu)
-
-    }
+    
 }

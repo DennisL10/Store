@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.dennis.store">
 
     <application
@@ -29,9 +30,6 @@
             android:exported="false" />
         <activity
             android:name=".ActivityZapato1"
-            android:exported="false" />
-        <activity
-            android:name=".MenuZapato"
             android:exported="false" />
         <activity
             android:name=".Registrar"
