@@ -8,189 +8,69 @@
     android:backgroundTint="@color/white"
     tools:context=".ActivityZapato2">
 
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="195dp"
-        android:layout_height="111dp"
-        android:layout_marginStart="108dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="108dp"
-        android:layout_marginBottom="21dp"
-        android:background="#1C1616"
-        android:backgroundTint="@color/white"
-        android:scaleType="centerCrop"
-        app:layout_constraintBottom_toTopOf="@+id/textView7"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView11"
-        app:srcCompat="@drawable/zapatooo" />
-
-    <TextView
-        android:id="@+id/textView7"
-        style="@style/Widget.MaterialComponents.Snackbar.TextView"
-        android:layout_width="292dp"
-        android:layout_height="120dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="48dp"
-        android:layout_marginEnd="110dp"
-        android:background="#00000000"
-        android:text="Nike Air Max Torch 3 - Zapatillas de running para hombre"
-        android:textColor="@color/black"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.428"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
-
-    <ImageView
-        android:id="@+id/imageView11"
-        android:layout_width="402dp"
-        android:layout_height="64dp"
-        android:layout_marginStart="3dp"
-        android:layout_marginEnd="6dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/sport" />
-
-    <TextView
-        android:id="@+id/textView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="13dp"
-        android:layout_marginTop="90dp"
-        android:layout_marginEnd="67dp"
-        android:layout_marginBottom="58dp"
-        android:text="Precio: $60.00"
-        android:textColor="@color/black"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/button3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/button"
-        app:layout_constraintTop_toBottomOf="@+id/textView7" />
-
-    <ImageView
-        android:id="@+id/imageView12"
-        android:layout_width="68dp"
-        android:layout_height="58dp"
-        android:layout_marginStart="13dp"
-        android:layout_marginTop="156dp"
-        android:layout_marginEnd="25dp"
-        android:layout_marginBottom="140dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView8"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/textView7"
-        app:layout_constraintTop_toBottomOf="@+id/imageView11"
-        app:srcCompat="@drawable/noted_note_pen_notebook_write_icon_193919" />
-
     <Button
         android:id="@+id/button"
         android:layout_width="185dp"
         android:layout_height="48dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="81dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginBottom="23dp"
+        android:layout_marginTop="336dp"
         android:backgroundTint="#FF9800"
         android:text="Agregar al carrito"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
-        app:layout_constraintEnd_toStartOf="@+id/textView8"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView7" />
-
-    <ImageView
-        android:id="@+id/imageView13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
-        android:layout_marginEnd="37dp"
-        android:layout_marginBottom="17dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imageView17"
-        app:layout_constraintTop_toBottomOf="@+id/button2"
-        app:srcCompat="@drawable/instagram_108043" />
-
-    <ImageView
-        android:id="@+id/imageView14"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:layout_marginEnd="48dp"
-        android:layout_marginBottom="17dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imageView13"
-        app:layout_constraintTop_toBottomOf="@+id/textView9"
-        app:srcCompat="@drawable/facebook_108044" />
-
-    <ImageView
-        android:id="@+id/imageView16"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="13dp"
-        android:layout_marginTop="13dp"
-        android:layout_marginEnd="41dp"
-        android:layout_marginBottom="17dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imageView14"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView9"
-        app:srcCompat="@drawable/whatsapp_108042" />
-
-    <ImageView
-        android:id="@+id/imageView17"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="17dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2"
-        app:srcCompat="@drawable/youtube_108041" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="210dp" />
 
     <TextView
-        android:id="@+id/textView9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="13dp"
-        android:layout_marginEnd="265dp"
-        android:text="CONTACTANOS POR:"
+        android:id="@+id/textView7"
+        style="@style/Widget.MaterialComponents.Snackbar.TextView"
+        android:layout_width="201dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="132dp"
+        android:background="#00000000"
+        android:text="Nike Air Max Torch 3 - Zapatillas de running para hombre"
         android:textColor="@color/black"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="545dp" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="187dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="13dp"
-        android:layout_marginTop="23dp"
-        android:layout_marginEnd="11dp"
-        android:layout_marginBottom="11dp"
-        android:backgroundTint="#FF9800"
-        android:onClick="Main"
-        android:text="Volver"
-        app:layout_constraintBottom_toTopOf="@+id/textView9"
-        app:layout_constraintEnd_toStartOf="@+id/button3"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        android:textSize="16sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="204dp" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="184dp"
         android:layout_height="50dp"
-        android:layout_marginStart="11dp"
-        android:layout_marginTop="58dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="46dp"
+        android:layout_marginTop="336dp"
         android:backgroundTint="#FF9800"
         android:onClick="ZAP2"
         android:text="Siguiente"
-        app:layout_constraintBottom_toTopOf="@+id/imageView13"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/button2"
-        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="203dp"
+        android:layout_height="146dp"
+        android:layout_marginTop="132dp"
+        android:background="#1C1616"
+        android:backgroundTint="@color/white"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/zapatooo"
+        tools:layout_editor_absoluteX="1dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="248dp"
+        android:text="Precio: $60.00"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="204dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="402dp"
+        android:layout_height="64dp"
+        app:srcCompat="@drawable/sport"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="10dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
