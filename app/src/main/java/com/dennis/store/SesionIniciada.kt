@@ -12,7 +12,7 @@ class SesionIniciada : AppCompatActivity() {
     }
 
     fun ZAP1(Vista: View){
-        val ZAP1 = Intent(this, ActivityZapato1::class.java)
+        val ZAP1 = Intent(this, MainZapatos::class.java)
         startActivity(ZAP1)
 
     }
