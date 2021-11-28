@@ -18,9 +18,11 @@ class MainZapatos : AppCompatActivity() {
         startActivity(carrit)
 
 
+
+
     }
 
-    fun carrit2(Vista: View)
+    fun carrito2(Vista: View)
     {
         val carrit2 = Intent(this, ActivityZapato2::class.java)
         startActivity(carrit2)

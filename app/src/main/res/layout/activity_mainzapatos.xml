@@ -70,19 +70,19 @@
                                 android:id="@+id/textView21"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="TextView" />
+                                android:text="Nike free Rn 2018 " />
 
                             <TextView
                                 android:id="@+id/textView19"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="TextView" />
+                                android:text="Tenis de correr para hombre" />
 
                             <TextView
                                 android:id="@+id/textView20"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="TextView" />
+                                android:text="Precio: $ 120.00" />
 
                             <Button
                                 android:id="@+id/button2"
@@ -149,7 +149,7 @@
                                 android:id="@+id/button4"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:onClick="carrit2"
+                                android:onClick="carrito2"
                                 android:text="Ver detalles" />
                         </LinearLayout>
                     </LinearLayout>
@@ -206,7 +206,7 @@
                                 android:id="@+id/button5"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Button" />
+                                android:text="Ver detalles " />
                         </LinearLayout>
                     </LinearLayout>
                 </LinearLayout>
@@ -262,7 +262,7 @@
                                 android:id="@+id/button7"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Button" />
+                                android:text="Ver detalles" />
                         </LinearLayout>
                     </LinearLayout>
                 </LinearLayout>
@@ -318,7 +318,7 @@
                                 android:id="@+id/button8"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Button" />
+                                android:text="Ver detalles" />
                         </LinearLayout>
                     </LinearLayout>
                 </LinearLayout>
