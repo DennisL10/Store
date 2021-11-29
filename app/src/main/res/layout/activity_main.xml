@@ -110,13 +110,14 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="223dp"
-        android:layout_height="149dp"
+        android:layout_width="234dp"
+        android:layout_height="130dp"
         android:layout_marginTop="56dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/tarjeta" />
+        app:srcCompat="@drawable/carne_de_identidad" />
 
     <ImageView
         android:id="@+id/imageView2"
