@@ -1,5 +1,6 @@
 package com.dennis.store
 
+import android.content.Intent
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
 import android.os.Bundle
@@ -41,11 +42,11 @@ class ActivityZapato1 : AppCompatActivity() {
     }
 */
 
+    fun Maincarrito(Vista: View){
 
-    fun seleccion(Vista: View){
-        when (Vista.id){
-            R.id.btn_carrito -> Toast.makeText(this,"Guardado al carrito",Toast.LENGTH_SHORT).show()
-        }
+        Toast.makeText(this,"Añadiendo al carrito", Toast.LENGTH_SHORT).show();
+        val maincarrito = Intent(this, ActivityCarrito::class.java)
+        startActivity(maincarrito)
 
     }
 }

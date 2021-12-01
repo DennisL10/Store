@@ -11,6 +11,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Design.NoActionBar">
         <activity
+            android:name=".ActivityCarrito"
+            android:exported="false" />
+        <activity
             android:name=".ActivityZapato5"
             android:exported="false" />
         <activity

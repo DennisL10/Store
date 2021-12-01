@@ -20,4 +20,12 @@
     <string name="tv_Menu">Selecciona una Categoria</string>
     <string name="title_activity_registrar">Registrar</string>
 
+    <string name="et_codigo">Codigo del producto</string>
+    <string name="et_nombre">Nombre del producto</string>
+    <string name="et_descripcion">Descripcion del producto</string>
+    <string name="et_precio">Precio del producto</string>
+    <string name="btn_buscar">Buscar</string>
+    <string name="btn_Eliminar">Eliminar</string>
+    <string name="btn_agregar">Agregar</string>
+
 </resources>
