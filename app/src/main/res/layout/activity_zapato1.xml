@@ -23,13 +23,16 @@
         style="@style/Widget.MaterialComponents.Snackbar.TextView"
         android:layout_width="201dp"
         android:layout_height="80dp"
-        android:layout_marginTop="132dp"
         android:background="#00000000"
         android:text="Nike Air Max Torch 3 - Zapatillas de running para hombre"
         android:textColor="@color/black"
         android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="204dp" />
+        app:layout_constraintVertical_bias="0.153" />
 
     <Button
         android:id="@+id/button3"
@@ -46,31 +49,41 @@
         android:id="@+id/imageView6"
         android:layout_width="203dp"
         android:layout_height="146dp"
-        android:layout_marginTop="132dp"
         android:background="#1C1616"
         android:backgroundTint="@color/white"
         android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/zapatooo"
-        tools:layout_editor_absoluteX="1dp" />
+        app:layout_constraintVertical_bias="0.173"
+        app:srcCompat="@drawable/zapatooo" />
 
     <TextView
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="248dp"
         android:text="Precio: $60.00"
         android:textColor="@color/black"
         android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="204dp" />
+        app:layout_constraintVertical_bias="0.397" />
 
     <ImageView
         android:id="@+id/imageView11"
         android:layout_width="402dp"
         android:layout_height="64dp"
-        app:srcCompat="@drawable/sport"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="10dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.008"
+        app:srcCompat="@drawable/sport" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
