@@ -12,6 +12,7 @@ class AdminConexion (
     ) : SQLiteOpenHelper(context, name, factory, version) {
         override fun onCreate(UsuConexion: SQLiteDatabase?) {
             UsuConexion?.execSQL("Create table usuario(id int primary key, Nombre text, Apellido text, Direccion text, DireccionE text, Usuario text, Contra text)")
+            UsuConexion?.execSQL("Create table Zapatos(id int primary key, nombre, description text, precio real)")
         }
 
         override fun onUpgrade(db: SQLiteDatabase?, oldVersion: Int, newVersion: Int) {
