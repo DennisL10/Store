@@ -1,10 +1,9 @@
 package com.dennis.store
 
-import android.content.Intent
 import android.database.sqlite.SQLiteDatabase
-import android.database.sqlite.SQLiteOpenHelper
 import android.os.Bundle
 import android.view.View
+import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -15,6 +14,12 @@ class ActivityZapato1 : AppCompatActivity() {
     private lateinit var txt_descripcion:TextView
     private lateinit var txt_precio:TextView
     private lateinit var btn_carrito:TextView
+    private lateinit var tv_Cnombre:TextView
+    private lateinit var tv_Capellido:TextView
+    private lateinit var tv_Cdireccion:TextView
+    private lateinit var tv_CdireccionE:TextView
+    private lateinit var et_Uus:EditText
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -28,25 +33,10 @@ class ActivityZapato1 : AppCompatActivity() {
 
 
     }
-/*
-    fun registrar(Vista:View){
-        val admin = AdminConexion(this, "tienda", null, 1)
-        val BD: SQLiteDatabase? = admin.writableDatabase
+    fun Buscar(Vista:View) {
 
-        val id = "1"
-        val nombre = "nike"
-        val descripcion = "Buena calidad"
-        val precio = 40
-
-
+            Toast.makeText(this,"COMPRA EXITOSA", Toast.LENGTH_LONG).show()
     }
-*/
 
-    fun Maincarrito(Vista: View){
-
-        Toast.makeText(this,"Añadiendo al carrito", Toast.LENGTH_SHORT).show();
-        val maincarrito = Intent(this, ActivityCarrito::class.java)
-        startActivity(maincarrito)
-
-    }
 }
+

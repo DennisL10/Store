@@ -74,8 +74,12 @@
         android:id="@+id/button10"
         android:layout_width="238dp"
         android:layout_height="45dp"
+        android:layout_marginTop="304dp"
         android:backgroundTint="#FF9800"
-        android:text="Agregar al carrito"
-        tools:layout_editor_absoluteX="86dp"
-        tools:layout_editor_absoluteY="330dp" />
+        android:onClick="Buscar"
+        android:text="COMPRAR"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

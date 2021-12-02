@@ -28,4 +28,11 @@
     <string name="btn_Eliminar">Eliminar</string>
     <string name="btn_agregar">Agregar</string>
 
+    <string name="tv_CNombre"></string>
+    <string name="tv_CApellido"></string>
+    <string name="tv_CDireccion"></string>
+    <string name="tv_CDireccionE"></string>
+    <string name="tv_CUsu">Ingresa tu usuario</string>
+
+
 </resources>

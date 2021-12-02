@@ -21,24 +21,24 @@ class MainZapatos : AppCompatActivity() {
 
     fun carrito2(Vista: View)
     {
-        val carrit2 = Intent(this, ActivityZapato2::class.java)
-        startActivity(carrit2)
+        val carrit = Intent(this, ActivityZapato2::class.java)
+        startActivity(carrit)
 
     }
 
     fun carrito3(Vista: View){
-        val carrit3 = Intent(this, ActivityZapato3::class.java)
-        startActivity(carrit3)
+        val carrit = Intent(this, ActivityZapato4::class.java)
+        startActivity(carrit)
     }
 
     fun carrito4(Vista: View){
-        val carrit4 = Intent(this, ActivityZapato4::class.java)
-        startActivity(carrit4)
+        val carrit = Intent(this, ActivityZapato4::class.java)
+        startActivity(carrit)
     }
 
     fun carrito5(Vista: View){
-        val carrit5 = Intent(this, ActivityZapato5::class.java)
-        startActivity(carrit5)
+        val carrit = Intent(this, ActivityZapato5::class.java)
+        startActivity(carrit)
     }
 
 

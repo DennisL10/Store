@@ -23,9 +23,9 @@
         android:orientation="vertical"></LinearLayout>
 
     <ScrollView
-        android:layout_width="412dp"
-        android:layout_height="549dp"
-        android:layout_marginTop="108dp"
+        android:layout_width="408dp"
+        android:layout_height="524dp"
+        android:layout_marginTop="125dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
